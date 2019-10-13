@@ -8,7 +8,7 @@ input {
 }
 
 input [type=button], input[type=submit], input[type=reset]{
-	background-color: black;
+	background-color: grey;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -17,7 +17,7 @@ input [type=button], input[type=submit], input[type=reset]{
     cursor: pointer;
 }
 .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.6), 0 17px 50px 0 rgba(255,255,255,0.19);
 
 }
 .button:active {
@@ -26,6 +26,6 @@ input [type=button], input[type=submit], input[type=reset]{
   transform: translateY(4px);
 }
 input:focus {
-    background-color: #d3d3d3;
+    background-color: #d3d5d3;
     
 }
